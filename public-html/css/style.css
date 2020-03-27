@@ -1,0 +1,201 @@
+body{
+
+}
+
+
+@font-face {
+    font-family: 'Poppins-Black';
+    src: url('../fonts/Poppins-Black.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url('../fonts/Poppins-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url('../fonts/Poppins-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+.data{
+    height: 500px;
+    background-color: black;
+}
+
+#logo{
+    transition: width 2s, height 2s, transform 2s;
+}
+#logo:hover{
+    transform: rotateY(180deg);
+}
+
+
+
+.navbar,h1,h3{
+    font-family: 'Poppins-Black';
+}
+p{
+     font-family: 'Poppins-Medium';
+    font-size: small;
+}
+button{
+    font-family: 'Poppins-Medium';
+}
+.navbar,#about-con,#place,#service-con,#blog-con,#contact-con{background-color: black}
+.fa-phone{
+    color: #e69f45;
+}
+#menu-btn:focus{
+    border: 1px solid #e69f45;
+}
+
+#slider{
+    background-image: url("../images/antique-blank-camera-269923@1X.png");
+    height: 700px;
+}
+#slider-btn{
+    color: #e69f45;
+    border:1px solid #e69f45 ;
+    background-color: black;
+}
+#slider-btn1{
+    color: #e69f45;
+    border:1px solid #e69f45 ;
+    background-color: black;
+    width: 15px;
+    height: 15px;
+}
+#slider-btn:hover{
+    color: #000000;
+    background-color: #e69f45;
+    border: 1px solid black;
+}
+
+#indicator{
+    border:1px solid #e69f45 ;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+#indicator:hover{
+    border:1px solid grey;
+    background-color: #e69f45;
+}
+#about{
+    color: #e69f45;
+}
+#travel{
+    background-image: url("../images/worldwide@1X.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#img1{
+    height: 200px;
+    width: 350px;
+}
+#hover:hover .overlay {
+    opacity: 0.7;
+}
+#hover1:hover .overlay {
+    opacity: 0.7;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+}
+
+
+#service{
+border: 1px solid #e69f45;
+    background-color: #373737;
+}
+#service img{
+    border: 1px solid #e69f45;
+}
+#service h5{
+    color:  #e69f45;
+}
+#service:hover{
+    background-color: black;
+}
+
+#load-more{
+    color: #000000;
+    background-color: #e69f45;
+}
+#blog-row{
+    background-image: url("../images/Vector Smart Object@1X.png");
+}
+.badge{
+    background-color: #e69f45;
+}
+#blog-img{
+    height: 380px;
+    border: 1px solid #e69f45;
+}
+#badge-col{
+    background-image: url("../images/Rectangle 11 copy 3@1X.png");
+    border: 1px solid #e69f45;
+}
+
+
+#lower-slider{
+    background-color: #373737;
+}
+#img-border{
+    border: 1px solid #e69f45;
+}
+
+.contact{
+    color: #e69f45;
+}
+.copy{
+    color: #e69f45;
+}
+#exampleMessage{
+    height: 150px;
+}
+footer{
+    border-top:2px solid #e69f45;
+    border-bottom:2px solid #e69f45;
+}
+
+#erase{
+    position:absolute;
+    right: 20px;
+    bottom: 20px;
+    height:20px;
+    width:50px;
+    outline:none;
+    text-align:center;
+    font-weight:bold;
+    padding-top:10px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    border: 1px solid #e69f45;
+    color:#e69f45 ;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 900px){
+    #slider-indi{display: none}
+}
