@@ -30,6 +30,14 @@ a.config(['$routeProvider', function($routeProvider){
 
 a.controller('b', function($scope){
 
-	
+	$scope.c = true;
+
+        $scope.Hide = function(){
+            $scope.c = false;
+        }
+        
+         $scope.Show = function(){
+            $scope.c = true;
+        }
 
 });
